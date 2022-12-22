@@ -1,0 +1,14 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+
+* Neurorack Hardware. 
+- Design board a board for the jetson NANO - 
+  - 6 CV inputs DAC  [[https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX11253ATJ%2b?qs=PVVDbbWpW3JGhO7ChYqN%252BQ%3D%3D][MAX11253ATJ+]]
+    
+  - 1 encoder 
+  - 1 switch
+  - oled (part needed)
+  - Audio out (stereo) [[https://www.mouser.com/ProductDetail/Texas-Instruments/PCM5102APW?qs=E2%2FxqS9xjzqNHu82%252Bs583Q%3D%3D][PCM5102APW]]
+  - Power from euro case 
+    - Power input 12V only - deriving the 5V.
