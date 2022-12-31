@@ -1,4 +1,4 @@
-366296439864713
+376330379325418
 Battery_management
 SOT-23_MCP73831
 
@@ -13,6 +13,13 @@ WLCSP12_LC709205F
 0
 12
 12
+adc
+SOIC-16
+
+
+0
+16
+16
 analog_filters
 SSOP16
 
@@ -382,8 +389,8 @@ TQFN-32_EP_5x5
 
 
 0
-0
-0
+33
+33
 connectors
 3.5mm_euro_Panel_WQP-PJ301M-12
 
@@ -727,6 +734,20 @@ XC6220_SOT-25
 0
 5
 5
+dac
+TSSOP-16
+
+
+0
+16
+16
+dac
+TSSOP-20
+
+
+0
+20
+20
 diodes
 14_seg_LTP-3786
 
@@ -811,6 +832,13 @@ Zener_SOD-323F_5.55V
 0
 2
 2
+display
+PIMORONI_LCD_240x240
+
+
+0
+7
+7
 encoders
 BOURNS_ENCODER
 
@@ -1021,6 +1049,13 @@ SOIC-14
 0
 14
 14
+linear
+SOT-23-8
+
+
+0
+8
+8
 mechanical
 7mm_spacer
 
@@ -1336,6 +1371,13 @@ TH_R
 0
 2
 2
+switches
+D6R
+
+
+0
+4
+4
 switches
 F2UEE
 

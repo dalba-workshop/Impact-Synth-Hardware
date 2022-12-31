@@ -418,6 +418,18 @@
     [
       "125194e1-2af1-4944-8919-ee08a5925fe8",
       "power_supply"
+    ],
+    [
+      "cd75f07d-07ef-4f6c-a2db-7450bd25cf14",
+      "adc"
+    ],
+    [
+      "76da6028-6792-4bf0-adb2-dee73a79eb92",
+      "outputDAC"
+    ],
+    [
+      "94a0fde1-8d5f-4fb5-9bef-31a134dd3193",
+      "cv_input"
     ]
   ],
   "text_variables": {}
