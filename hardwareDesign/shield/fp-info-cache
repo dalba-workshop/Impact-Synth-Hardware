@@ -1,4 +1,4 @@
-376330379325418
+381349440634552
 Battery_management
 SOT-23_MCP73831
 
@@ -13,6 +13,13 @@ WLCSP12_LC709205F
 0
 12
 12
+SOT
+SOT23-8
+
+
+0
+8
+8
 adc
 SOIC-16
 
@@ -392,7 +399,21 @@ TQFN-32_EP_5x5
 33
 33
 connectors
+02x01_2.54_pitch_pin_header
+
+
+0
+2
+2
+connectors
 3.5mm_euro_Panel_WQP-PJ301M-12
+
+
+0
+3
+3
+connectors
+03x01_2.54_pitch_pin_header
 
 
 0
