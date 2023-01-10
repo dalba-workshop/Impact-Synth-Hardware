@@ -1,0 +1,31 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Display,IPN,Manufacturer,Part Number
+1,7,"C1, C3, C5, C9, C11, C17, C46",10uf_0603_25V,capacitors_smd:10uf_0603_25V,capacitors:SMD_0603[1608],https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf,10u,CAP-011-0000,Murata Electronics,GRT188R61E106ME13D
+2,7,"C2, C4, C6, C10, C12, C13, C18",0.1uf_0603_10V,capacitors_smd:0.1uf_0603_10V,capacitors:SMD_0603[1608],https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf,0u1,CAP-005-0000,Wurth Elektronik ,885012206020
+3,2,"C7, C8",0.01uf_0603_50V,capacitors_smd:0.01uf_0603_50V,capacitors:SMD_0603[1608],https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf,0u01,CAP-002-0001,Vishay,VJ0603Y103KXACW1BC 
+4,1,C14,2.2uf_0603_10V,capacitors_smd:2.2uf_0603_10V,capacitors:SMD_0603[1608],https://www.we-online.com/katalog/datasheet/885012106011.pdf,2u2,CAP-020-0000,Würth Elektronik,885012106011
+5,2,"C15, C16",1uf_4.3mm_50V_POL_LP,capacitors_smd:1uf_4.3mm_50V_POL_LP,capacitors:WE_4mm_cap,https://www.mouser.com/datasheet/2/129/RVS-5289.pdf,1u,CAP-048-0000,Elna ,RSVVS010M1UBC3001U 
+6,1,C44,0.33uf_0603_25V,capacitors_smd:0.33uf_0603_25V,capacitors:SMD_0603[1608],https://www.mouser.com/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf,0u33,CAP-007-0000,YAGEO,CC0603KRX7R8BB334 
+7,1,ENC1,BOURNS_PEC11R_DET,encoders:BOURNS_PEC11R_DET,encoders:BOURNS_ENCODER,https://www.mouser.com/datasheet/2/54/PEC11R-777457.pdf,,ENC-002-001, Bourns ,PEC11R-4220F-N0024
+8,2,"FB1, FB2",FB_HZ0805,inductors:FB_HZ0805,inductance_ferrite:FB_HZ0805,https://www.mouser.com/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf,,IND-007-000, Laird Performance Materials ,HZ0805C202R-10
+9,1,J1,40_POS_RIBBON,connectors:40_POS_RIBBON,connectors:40_POS_2.54mm,https://www.mouser.com/datasheet/2/527/idsd-2854485.pdf,,CON-028-000,Amphenol FCI,IDSD-20-D-04.00-T-G-RW 
+10,1,J2,40_POS_Header,connectors:40_POS_Header,connectors:40_POS_2.54mm,https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf,,CON-027-000,Amphenol FCI,10129381-940002BLF
+11,8,"J3, J5, J6, J7, J8, J9, J11, J12",WQP419,connectors_audio:WQP419,connectors:WQP419,http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html,,CON-002-001,qingpu-electronics,WQP-WQP419GR
+12,1,J4,10_POS_PIN_HEADER_ALT,connectors:10_POS_PIN_HEADER_ALT,connectors:05x02_2.54_pitch_pin_header,https://www.mouser.com/datasheet/2/445/61201021621-1717731.pdf,,CON-011-001,Wurth Elektronik ,61201021621
+13,1,J10,PIM_LCD,display:PIM_LCD,display:PIMORONI_LCD_240x240,https://shop.pimoroni.com/products/1-3-spi-colour-lcd-240x240-breakout?variant=30250963632211,,DIS-001-000,PIMORONI,PIMORONI_LCD_240x240
+14,2,"J13, J14",3x1_PIN_HEADER,connectors:3x1_PIN_HEADER,connectors:03x01_2.54_pitch_pin_header,https://datasheet.octopart.com/10129378-903001BLF-Amphenol-Communications-Solutions-datasheet-100454231.pdf,,CON-029-000, Amphenol FCI ,10129378-903001BLF
+15,1,J15,2x1_PIN_HEADER,connectors:2x1_PIN_HEADER,connectors:02x01_2.54_pitch_pin_header,https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf,,CON-030-000, Amphenol FCI ,67996-400HLF
+16,1,Q1,FDMS4435BZ ,transistors:FDMS4435BZ ,transistors:Power-56-8,https://datasheet.octopart.com/FDMS4435BZ-ON-Semiconductor-datasheet-139010446.pdf,,TRA-009-000,onsemi / Fairchild ,FDMS4435BZ 
+17,1,Q2,FDMS0312S ,transistors:FDMS0312S ,transistors:Power-56-8,https://www.mouser.com/datasheet/2/308/1/FDMS0312S_D-2312821.pdf,,TRA-008-000,onsemi / Fairchild ,FDMS0312S 
+18,6,"R1, R2, R9, R10, R17, R18",8.06M_0805,resistors_smd:8.06M_0805,resistors:SMD_0805[2012],https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf,8.06M,RES-066-000,YAGEO,RC0805FR-078M06L
+19,6,"R3, R4, R11, R12, R19, R20",402K_0603,resistors_smd:402K_0603,resistors:SMD_0603[1608],https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf,402K,RES-065-000,YAGEO,RT0603FRE07402KL
+20,12,"R5, R6, R7, R8, R13, R14, R15, R16, R21, R22, R23, R24",100K_0603,resistors_smd:100K_0603,resistors:SMD_0603[1608],https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf,100K,RES-007-000, Panasonic ,ERJ-3EKF1003V
+21,4,"R25, R27, R28, R29",10K_0603_2,resistors_smd:10K_0603_2,resistors:SMD_0603[1608],https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf,10K,RES-011-002,ROHM Semiconductor ,SFR03EZPF1002 
+22,1,R26,10K_0603,resistors_smd:10K_0603,resistors:SMD_0603[1608],https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf,10K,RES-011-000,YAGEO,AC0603FR-0710KL
+23,1,R30,0_0603,resistors_smd:0_0603,resistors:SMD_0603[1608],https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf,0,RES-001-000, Vishay / Draloric ,CRCW06030000Z0EAC
+24,1,SW1,D6R,switches:D6R,switches:D6R,https://www.mouser.com/datasheet/2/240/d6-3050860.pdf,,SWI-002-000, C&K ,D6R60F1LFS
+25,1,U1,MCP3208,adc:MCP3208,adc:SOIC-16,https://www.mouser.com/datasheet/2/268/21298e-1101808.pdf,,ADC-003-000,Microchip Technology / Atmel ,MCP3208-CI/SL
+26,1,U2,AK4432,dac:AK4432,dac:TSSOP-16,https://www.mouser.com/datasheet/2/1431/ak4432vt_en_datasheet-3010161.pdf,,DAC-002-000,Asahi Kasei Microdevices  (AKM),AK4432VT
+27,1,U3,TLV9062,op_amps:TLV9062,SOT:SOT23-8,https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1672235165731&ref_url=https%253A%252F%252Fwww.mouser.com%252F,,AMP-005-000, Texas Instruments ,TLV9062IDDFR 
+28,1,U4,TLV9062,:TLV9062_3,SOT:SOT23-8,https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1672235165731&ref_url=https%253A%252F%252Fwww.mouser.com%252F,,AMP-005-000, Texas Instruments ,TLV9062IDDFR 
+29,1,U5,TLV9062,:TLV9062_1,SOT:SOT23-8,https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1672235165731&ref_url=https%253A%252F%252Fwww.mouser.com%252F,,AMP-005-000, Texas Instruments ,TLV9062IDDFR 
+30,1,U8,LD29150DT50R,regulators:LD29150DT50R,converters:TO-252-3_ST,https://www.mouser.com/datasheet/2/389/cd00003403-1796235.pdf,,ANA-005-000, STMicroelectronics , LD29150DT50R 

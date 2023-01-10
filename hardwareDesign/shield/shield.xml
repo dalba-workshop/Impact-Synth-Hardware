@@ -1,0 +1,2941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fabien/work/projects/Impact-Synth-Hardware/hardwareDesign/shield/shield.kicad_sch</source>
+    <date>Fri 06 Jan 2023 07:10:06 PM PST</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>shield.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/adc/" tstamps="/cd75f07d-07ef-4f6c-a2db-7450bd25cf14/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>adc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>outputDAC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cv_input.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>0.01uf_0603_50V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf</datasheet>
+      <fields>
+        <field name="Display">0u01</field>
+        <field name="IPN">CAP-002-0001</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Part Number">VJ0603Y103KXACW1BC </field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.01uf_0603_50V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT The factory is currently not accepting orders for this product. "/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Part Number" value="VJ0603Y103KXACW1BC "/>
+      <property name="Display" value="0u01"/>
+      <property name="IPN" value="CAP-002-0001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b87c6b8-74dc-45ea-81e3-5dd20e50170a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.01uf_0603_50V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf</datasheet>
+      <fields>
+        <field name="Display">0u01</field>
+        <field name="IPN">CAP-002-0001</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Part Number">VJ0603Y103KXACW1BC </field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.01uf_0603_50V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT The factory is currently not accepting orders for this product. "/>
+      <property name="Manufacturer" value="Vishay"/>
+      <property name="Part Number" value="VJ0603Y103KXACW1BC "/>
+      <property name="Display" value="0u01"/>
+      <property name="IPN" value="CAP-002-0001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2929a9d7-b69f-4939-930c-4b4c8d09a4c6</tstamps>
+    </comp>
+    <comp ref="ENC1">
+      <value>BOURNS_PEC11R_DET</value>
+      <footprint>encoders:BOURNS_ENCODER</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PEC11R-777457.pdf</datasheet>
+      <fields>
+        <field name="IPN">ENC-002-001</field>
+        <field name="Manufacturer"> Bourns </field>
+        <field name="Part Number">PEC11R-4220F-N0024</field>
+      </fields>
+      <libsource lib="encoders" part="BOURNS_PEC11R_DET" description="Encoders 20mm SHAFT NO SWITCH - 24 detent"/>
+      <property name="Manufacturer" value=" Bourns "/>
+      <property name="Part Number" value="PEC11R-4220F-N0024"/>
+      <property name="IPN" value="ENC-002-001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7928f66b-e267-4557-92ef-ed11bb223366</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>40_POS_RIBBON</value>
+      <footprint>connectors:40_POS_2.54mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/527/idsd-2854485.pdf</datasheet>
+      <fields>
+        <field name="IPN">CON-028-000</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Part Number">IDSD-20-D-04.00-T-G-RW </field>
+      </fields>
+      <libsource lib="connectors" part="40_POS_RIBBON" description="Ribbon Cables / IDC Cables Slim Body Double-Row IDC Socket Assemblies, 0.100 Pitch"/>
+      <property name="Manufacturer" value="Amphenol FCI"/>
+      <property name="IPN" value="CON-028-000"/>
+      <property name="Part Number" value="IDSD-20-D-04.00-T-G-RW "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c0d09e3-91da-4837-b7b3-be75f3ed842f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>40_POS_Header</value>
+      <footprint>connectors:40_POS_2.54mm</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</datasheet>
+      <fields>
+        <field name="IPN">CON-027-000</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Part Number">10129381-940002BLF</field>
+      </fields>
+      <libsource lib="connectors" part="40_POS_Header" description="Headers &amp; Wire Housings ECONOSTIK HEADER DR VT TH 2X20 "/>
+      <property name="Manufacturer" value="Amphenol FCI"/>
+      <property name="Part Number" value="10129381-940002BLF"/>
+      <property name="IPN" value="CON-027-000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d81fb992-8516-498a-a03e-ca544e3fcf37</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>PIM_LCD</value>
+      <footprint>display:PIMORONI_LCD_240x240</footprint>
+      <datasheet>https://shop.pimoroni.com/products/1-3-spi-colour-lcd-240x240-breakout?variant=30250963632211</datasheet>
+      <fields>
+        <field name="IPN">DIS-001-000</field>
+        <field name="Manufacturer">PIMORONI</field>
+        <field name="Part Number">PIMORONI_LCD_240x240</field>
+      </fields>
+      <libsource lib="display" part="PIM_LCD" description="Crisp, high-res, with great viewing angles (IPS), this 1.3&quot; square, 240x240 pixel, colour LCD will add some pizzazz to your Raspberry Pi or Arduino projects."/>
+      <property name="Manufacturer" value="PIMORONI"/>
+      <property name="Part Number" value="PIMORONI_LCD_240x240"/>
+      <property name="IPN" value="DIS-001-000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ed1beea-f87e-4a41-83bc-ad048f4ed178</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K_0603_2</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf</datasheet>
+      <fields>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-002</field>
+        <field name="Manufacturer">ROHM Semiconductor </field>
+        <field name="Part Number">SFR03EZPF1002 </field>
+      </fields>
+      <libsource lib="resistors_smd" part="10K_0603_2" description="Thick Film Resistors - SMD 0603 10Kohms 1% Anti-Sulfur AEC-Q200 "/>
+      <property name="Manufacturer" value="ROHM Semiconductor "/>
+      <property name="Part Number" value="SFR03EZPF1002 "/>
+      <property name="Display" value="10K"/>
+      <property name="IPN" value="RES-011-002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23e0b2b4-317c-45d1-aa52-ad9fc51d9319</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf</datasheet>
+      <fields>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">AC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="10K_0603" description="Thick Film Resistors - SMD 10 kOhms 100mW 0603 1% AEC-Q200"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="AC0603FR-0710KL"/>
+      <property name="Display" value="10K"/>
+      <property name="IPN" value="RES-011-000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46908d26-06b4-44ce-94ca-393a54bfb27b</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10K_0603_2</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf</datasheet>
+      <fields>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-002</field>
+        <field name="Manufacturer">ROHM Semiconductor </field>
+        <field name="Part Number">SFR03EZPF1002 </field>
+      </fields>
+      <libsource lib="resistors_smd" part="10K_0603_2" description="Thick Film Resistors - SMD 0603 10Kohms 1% Anti-Sulfur AEC-Q200 "/>
+      <property name="Manufacturer" value="ROHM Semiconductor "/>
+      <property name="Part Number" value="SFR03EZPF1002 "/>
+      <property name="Display" value="10K"/>
+      <property name="IPN" value="RES-011-002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d40638c0-af7c-462d-a47a-b809e26cb1fe</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K_0603_2</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf</datasheet>
+      <fields>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-002</field>
+        <field name="Manufacturer">ROHM Semiconductor </field>
+        <field name="Part Number">SFR03EZPF1002 </field>
+      </fields>
+      <libsource lib="resistors_smd" part="10K_0603_2" description="Thick Film Resistors - SMD 0603 10Kohms 1% Anti-Sulfur AEC-Q200 "/>
+      <property name="Manufacturer" value="ROHM Semiconductor "/>
+      <property name="Part Number" value="SFR03EZPF1002 "/>
+      <property name="Display" value="10K"/>
+      <property name="IPN" value="RES-011-002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b13facb9-acf9-4c67-a8cb-e8b171ef121d</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K_0603_2</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf</datasheet>
+      <fields>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-002</field>
+        <field name="Manufacturer">ROHM Semiconductor </field>
+        <field name="Part Number">SFR03EZPF1002 </field>
+      </fields>
+      <libsource lib="resistors_smd" part="10K_0603_2" description="Thick Film Resistors - SMD 0603 10Kohms 1% Anti-Sulfur AEC-Q200 "/>
+      <property name="Manufacturer" value="ROHM Semiconductor "/>
+      <property name="Part Number" value="SFR03EZPF1002 "/>
+      <property name="Display" value="10K"/>
+      <property name="IPN" value="RES-011-002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e09248c-e516-4501-8607-167ef125d180</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>D6R</value>
+      <footprint>switches:D6R</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/240/d6-3050860.pdf</datasheet>
+      <fields>
+        <field name="IPN">SWI-002-000</field>
+        <field name="Manufacturer"> C&amp;K </field>
+        <field name="Part Number">D6R60F1LFS</field>
+      </fields>
+      <libsource lib="switches" part="D6R" description="Pushbutton Switches Key Switch SPST NO 100 mA"/>
+      <property name="Manufacturer" value=" C&amp;K "/>
+      <property name="Part Number" value="D6R60F1LFS"/>
+      <property name="IPN" value="SWI-002-000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc3f4a2f-50d9-4508-a9c0-99ed4c7fdaf0</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>0.33uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</datasheet>
+      <fields>
+        <field name="Display">0u33</field>
+        <field name="IPN">CAP-007-0000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">CC0603KRX7R8BB334 </field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.33uf_0603_25V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 0.33uF X7R 0603 10% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="CC0603KRX7R8BB334 "/>
+      <property name="Display" value="0u33"/>
+      <property name="IPN" value="CAP-007-0000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>bda0a883-5b13-4f76-9863-ad2e9a23af3d</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>e234c589-8f10-45f0-b931-b51acd809d25</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FB_HZ0805</value>
+      <footprint>inductance_ferrite:FB_HZ0805</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf</datasheet>
+      <fields>
+        <field name="IPN">IND-007-000</field>
+        <field name="Manufacturer"> Laird Performance Materials </field>
+        <field name="Part Number">HZ0805C202R-10</field>
+      </fields>
+      <libsource lib="inductors" part="FB_HZ0805" description="Ferrite Beads 2000ohms 100MHz .3A Monolithic 0805 SMD"/>
+      <property name="Manufacturer" value=" Laird Performance Materials "/>
+      <property name="Part Number" value="HZ0805C202R-10"/>
+      <property name="IPN" value="IND-007-000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>785349f3-e5b8-4435-a6e2-21e8146b1083</tstamps>
+    </comp>
+    <comp ref="FB2">
+      <value>FB_HZ0805</value>
+      <footprint>inductance_ferrite:FB_HZ0805</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf</datasheet>
+      <fields>
+        <field name="IPN">IND-007-000</field>
+        <field name="Manufacturer"> Laird Performance Materials </field>
+        <field name="Part Number">HZ0805C202R-10</field>
+      </fields>
+      <libsource lib="inductors" part="FB_HZ0805" description="Ferrite Beads 2000ohms 100MHz .3A Monolithic 0805 SMD"/>
+      <property name="Manufacturer" value=" Laird Performance Materials "/>
+      <property name="Part Number" value="HZ0805C202R-10"/>
+      <property name="IPN" value="IND-007-000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>5234d64f-3b7f-4577-b4aa-43b7d33392c3</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>10_POS_PIN_HEADER_ALT</value>
+      <footprint>connectors:05x02_2.54_pitch_pin_header</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/61201021621-1717731.pdf</datasheet>
+      <fields>
+        <field name="IPN">CON-011-001</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">61201021621 </field>
+      </fields>
+      <libsource lib="connectors" part="10_POS_PIN_HEADER_ALT" description="Headers &amp; Wire Housings WR-BHD 2.54mm Box 10Pin Male Straight "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="61201021621 "/>
+      <property name="IPN" value="CON-011-001"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>44c5e6b2-35d2-41aa-b893-c27c3960c660</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>2x1_PIN_HEADER</value>
+      <footprint>connectors:02x01_2.54_pitch_pin_header</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
+      <fields>
+        <field name="IPN">CON-030-000</field>
+        <field name="Manufacturer"> Amphenol FCI </field>
+        <field name="Part Number">67996-400HLF</field>
+      </fields>
+      <libsource lib="connectors" part="2x1_PIN_HEADER" description="Headers &amp; Wire Housings EconoStik 2.54mm, Board to Board Connector, Unshrouded Verticl Header, Through Hole, Single Row, 3 Positions, 2.54 mm (0.100in) Pitch. "/>
+      <property name="Manufacturer" value=" Amphenol FCI "/>
+      <property name="Part Number" value="67996-400HLF"/>
+      <property name="IPN" value="CON-030-000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>fd71247d-ac5e-434a-80b1-e1ae6382c343</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>FDMS4435BZ </value>
+      <footprint>transistors:Power-56-8</footprint>
+      <datasheet>https://datasheet.octopart.com/FDMS4435BZ-ON-Semiconductor-datasheet-139010446.pdf</datasheet>
+      <fields>
+        <field name="IPN">TRA-009-000</field>
+        <field name="Manufacturer">onsemi / Fairchild </field>
+        <field name="Part Number">FDMS4435BZ </field>
+      </fields>
+      <libsource lib="transistors" part="FDMS4435BZ " description="P-Channel PowerTrench® MOSFET -30V, -18A, 20mΩ"/>
+      <property name="Manufacturer" value="onsemi / Fairchild "/>
+      <property name="Part Number" value="FDMS4435BZ "/>
+      <property name="IPN" value="TRA-009-000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>cc6fab20-8270-45c7-843f-e99bdf02d74d</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>FDMS0312S </value>
+      <footprint>transistors:Power-56-8</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/308/1/FDMS0312S_D-2312821.pdf</datasheet>
+      <fields>
+        <field name="IPN">TRA-008-000</field>
+        <field name="Manufacturer">onsemi / Fairchild </field>
+        <field name="Part Number">FDMS0312S </field>
+      </fields>
+      <libsource lib="transistors" part="FDMS0312S " description=" MOSFET 30V N-Chan SyncFET PowerTrench "/>
+      <property name="Manufacturer" value="onsemi / Fairchild "/>
+      <property name="Part Number" value="FDMS0312S "/>
+      <property name="IPN" value="TRA-008-000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>9c89d5d3-98fe-4e5f-8dd0-ea6faf75a021</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>LD29150DT50R</value>
+      <footprint>converters:TO-252-3_ST</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/cd00003403-1796235.pdf</datasheet>
+      <fields>
+        <field name="IPN">ANA-005-000</field>
+        <field name="Manufacturer"> STMicroelectronics </field>
+        <field name="Part Number"> LD29150DT50R </field>
+      </fields>
+      <libsource lib="regulators" part="LD29150DT50R" description=" LDO Voltage Regulators 5.0V 1.5A Very Low "/>
+      <property name="Manufacturer" value=" STMicroelectronics "/>
+      <property name="Part Number" value=" LD29150DT50R "/>
+      <property name="IPN" value="ANA-005-000"/>
+      <property name="Sheetname" value="power_supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/power_supply/" tstamps="/125194e1-2af1-4944-8919-ee08a5925fe8/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc6de84</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="adc"/>
+      <property name="Sheetfile" value="adc.kicad_sch"/>
+      <sheetpath names="/adc/" tstamps="/cd75f07d-07ef-4f6c-a2db-7450bd25cf14/"/>
+      <tstamps>bd3efd5b-bb12-4159-a8bf-824efec2b72f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="adc"/>
+      <property name="Sheetfile" value="adc.kicad_sch"/>
+      <sheetpath names="/adc/" tstamps="/cd75f07d-07ef-4f6c-a2db-7450bd25cf14/"/>
+      <tstamps>57854d61-5225-4b82-95c0-89ed347c05ce</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP3208</value>
+      <footprint>adc:SOIC-16</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/268/21298e-1101808.pdf</datasheet>
+      <fields>
+        <field name="IPN">ADC-003-000</field>
+        <field name="Manufacturer">Microchip Technology / Atmel </field>
+        <field name="Part Number">MCP3208-CI/SL</field>
+      </fields>
+      <libsource lib="adc" part="MCP3208" description="Analog to Digital Converters - ADC 12-bit SPI 8 Chl "/>
+      <property name="Manufacturer" value="Microchip Technology / Atmel "/>
+      <property name="Part Number" value="MCP3208-CI/SL"/>
+      <property name="IPN" value="ADC-003-000"/>
+      <property name="Sheetname" value="adc"/>
+      <property name="Sheetfile" value="adc.kicad_sch"/>
+      <sheetpath names="/adc/" tstamps="/cd75f07d-07ef-4f6c-a2db-7450bd25cf14/"/>
+      <tstamps>27e00cec-742c-4a53-b598-eb4536392e1d</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>ec220262-00af-41fc-b44d-bd42fc6a8c03</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>f3f4ebc1-24eb-45f0-82f8-750ca2a294bd</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>3a21bf97-7db5-4bea-85ce-9d17fe0f8f52</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>23bd02f2-cb23-47f0-bc6c-bfdb6740169a</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>8c2ca6b8-b40f-4391-b880-2775c1b977cf</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>2.2uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/885012106011.pdf</datasheet>
+      <fields>
+        <field name="Display">2u2</field>
+        <field name="IPN">CAP-020-0000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Part Number">885012106011</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="2.2uf_0603_10V" description="2.2 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="Part Number" value="885012106011"/>
+      <property name="Display" value="2u2"/>
+      <property name="IPN" value="CAP-020-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>2f6e8801-57bc-4ae5-9aa4-e2971447f2e3</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1uf_4.3mm_50V_POL_LP</value>
+      <footprint>capacitors:WE_4mm_cap</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/129/RVS-5289.pdf</datasheet>
+      <fields>
+        <field name="Display">1u</field>
+        <field name="IPN">CAP-048-0000</field>
+        <field name="Manufacturer">Elna </field>
+        <field name="Part Number">RSVVS010M1UBC3001U </field>
+      </fields>
+      <libsource lib="capacitors_smd" part="1uf_4.3mm_50V_POL_LP" description="Aluminum Electrolytic Capacitors - SMD 50V 1.0uF 4X5.3"/>
+      <property name="Manufacturer" value="Elna "/>
+      <property name="Part Number" value="RSVVS010M1UBC3001U "/>
+      <property name="Display" value="1u"/>
+      <property name="IPN" value="CAP-048-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>9c9b4365-4b61-44dd-9e8a-b10ac5d0aab4</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uf_4.3mm_50V_POL_LP</value>
+      <footprint>capacitors:WE_4mm_cap</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/129/RVS-5289.pdf</datasheet>
+      <fields>
+        <field name="Display">1u</field>
+        <field name="IPN">CAP-048-0000</field>
+        <field name="Manufacturer">Elna </field>
+        <field name="Part Number">RSVVS010M1UBC3001U </field>
+      </fields>
+      <libsource lib="capacitors_smd" part="1uf_4.3mm_50V_POL_LP" description="Aluminum Electrolytic Capacitors - SMD 50V 1.0uF 4X5.3"/>
+      <property name="Manufacturer" value="Elna "/>
+      <property name="Part Number" value="RSVVS010M1UBC3001U "/>
+      <property name="Display" value="1u"/>
+      <property name="IPN" value="CAP-048-0000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>a2845fc7-1b57-45d2-8b8d-e941679aa551</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>bed07c45-9ded-4a76-8d10-7af1dcf31fa8</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>a60fe73f-b60e-4166-9e8a-026eaf6f8182</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>0_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf</datasheet>
+      <fields>
+        <field name="Display">0</field>
+        <field name="IPN">RES-001-000</field>
+        <field name="Manufacturer"> Vishay / Draloric </field>
+        <field name="Part Number">CRCW06030000Z0EAC</field>
+      </fields>
+      <libsource lib="resistors_smd" part="0_0603" description="Thick Film Resistors - SMD 1/10Watt 0ohms Commercial Use"/>
+      <property name="Manufacturer" value=" Vishay / Draloric "/>
+      <property name="Part Number" value="CRCW06030000Z0EAC"/>
+      <property name="Display" value="0"/>
+      <property name="IPN" value="RES-001-000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>ea38a1a9-d3ff-43b1-8708-8aa82684d96d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AK4432</value>
+      <footprint>dac:TSSOP-16</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/1431/ak4432vt_en_datasheet-3010161.pdf</datasheet>
+      <fields>
+        <field name="IPN">DAC-002-000</field>
+        <field name="Manufacturer">Asahi Kasei Microdevices  (AKM)</field>
+        <field name="Part Number">AK4432VT</field>
+      </fields>
+      <libsource lib="dac" part="AK4432" description="Audio D/A Converter ICs DAC Gen3 32bit 192kHz 108dB 2ch SCDF"/>
+      <property name="Manufacturer" value="Asahi Kasei Microdevices  (AKM)"/>
+      <property name="Part Number" value="AK4432VT"/>
+      <property name="IPN" value="DAC-002-000"/>
+      <property name="Sheetname" value="outputDAC"/>
+      <property name="Sheetfile" value="outputDAC.kicad_sch"/>
+      <sheetpath names="/outputDAC/" tstamps="/76da6028-6792-4bf0-adb2-dee73a79eb92/"/>
+      <tstamps>a2a5e874-4d5e-40be-a221-0d6d94e52092</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>d8620418-981b-4d3e-b289-df57f050e238</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>cb721eef-09c8-4dd0-902a-29e4ba547690</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>f5478fc9-02ed-4dd4-918d-5fe8d1a95163</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>d8760a32-c5bf-4996-a9b0-811559c37cba</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uf_0603_25V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</datasheet>
+      <fields>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="10uf_0603_25V" description="CAP CER 10UF 25V X5R 0603"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Part Number" value="GRT188R61E106ME13D"/>
+      <property name="Display" value="10u"/>
+      <property name="IPN" value="CAP-011-0000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>3baa1d5b-970a-450f-abd5-e50944c92241</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uf_0603_10V</value>
+      <footprint>capacitors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</datasheet>
+      <fields>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+      </fields>
+      <libsource lib="capacitors_smd" part="0.1uf_0603_10V" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC "/>
+      <property name="Manufacturer" value="Wurth Elektronik "/>
+      <property name="Part Number" value="885012206020"/>
+      <property name="Display" value="0u1"/>
+      <property name="IPN" value="CAP-005-0000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>2008374c-50be-483a-9d6a-95e58fba98fc</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>cae00357-8025-4411-8da9-c1328b762dd4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>88d76f71-23d1-4496-b27a-944ecb9b0ba1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>61f70af4-e818-4b66-9215-2fadc1d2527e</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>5d0663a9-51dd-41d0-8b1e-48e40c9b7ed0</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>0a65a0d1-8844-4081-a973-4d43d331cf07</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>WQP419</value>
+      <footprint>connectors:WQP419</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</datasheet>
+      <fields>
+        <field name="IPN">CON-002-001</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+      </fields>
+      <libsource lib="connectors_audio" part="WQP419" description=""/>
+      <property name="Part Number" value="WQP-WQP419GR"/>
+      <property name="Manufacturer" value="qingpu-electronics"/>
+      <property name="IPN" value="CON-002-001"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>3da537ae-5aae-459e-b9f3-023f5ed51f30</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>3x1_PIN_HEADER</value>
+      <footprint>connectors:03x01_2.54_pitch_pin_header</footprint>
+      <datasheet>https://datasheet.octopart.com/10129378-903001BLF-Amphenol-Communications-Solutions-datasheet-100454231.pdf</datasheet>
+      <fields>
+        <field name="IPN">CON-029-000</field>
+        <field name="Manufacturer"> Amphenol FCI </field>
+        <field name="Part Number">10129378-903001BLF</field>
+      </fields>
+      <libsource lib="connectors" part="3x1_PIN_HEADER" description="Headers &amp; Wire Housings EconoStik 2.54mm, Board to Board Connector, Unshrouded Verticl Header, Through Hole, Single Row, 3 Positions, 2.54 mm (0.100in) Pitch. "/>
+      <property name="Manufacturer" value=" Amphenol FCI "/>
+      <property name="Part Number" value="10129378-903001BLF"/>
+      <property name="IPN" value="CON-029-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>20ede181-b6b9-4de2-a202-757d1b30ef1e</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>3x1_PIN_HEADER</value>
+      <footprint>connectors:03x01_2.54_pitch_pin_header</footprint>
+      <datasheet>https://datasheet.octopart.com/10129378-903001BLF-Amphenol-Communications-Solutions-datasheet-100454231.pdf</datasheet>
+      <fields>
+        <field name="IPN">CON-029-000</field>
+        <field name="Manufacturer"> Amphenol FCI </field>
+        <field name="Part Number">10129378-903001BLF</field>
+      </fields>
+      <libsource lib="connectors" part="3x1_PIN_HEADER" description="Headers &amp; Wire Housings EconoStik 2.54mm, Board to Board Connector, Unshrouded Verticl Header, Through Hole, Single Row, 3 Positions, 2.54 mm (0.100in) Pitch. "/>
+      <property name="Manufacturer" value=" Amphenol FCI "/>
+      <property name="Part Number" value="10129378-903001BLF"/>
+      <property name="IPN" value="CON-029-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>a331fb15-a7ed-454c-8441-28d87d305499</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8.06M_0805</value>
+      <footprint>resistors:SMD_0805[2012]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+      </fields>
+      <libsource lib="resistors_smd" part="8.06M_0805" description="Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RC0805FR-078M06L"/>
+      <property name="Display" value="8.06M"/>
+      <property name="IPN" value="RES-066-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>e825433b-27d5-48ce-825b-16dc8097f890</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>8.06M_0805</value>
+      <footprint>resistors:SMD_0805[2012]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+      </fields>
+      <libsource lib="resistors_smd" part="8.06M_0805" description="Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RC0805FR-078M06L"/>
+      <property name="Display" value="8.06M"/>
+      <property name="IPN" value="RES-066-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>ff70f89e-34c6-4dc9-91c2-471d9e1ed3ba</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>402K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</datasheet>
+      <fields>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="402K_0603" description="Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RT0603FRE07402KL"/>
+      <property name="Display" value="402K"/>
+      <property name="IPN" value="RES-065-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>b690f664-befa-466e-a19d-72ebca50200d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>402K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</datasheet>
+      <fields>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="402K_0603" description="Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RT0603FRE07402KL"/>
+      <property name="Display" value="402K"/>
+      <property name="IPN" value="RES-065-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>e409e906-2f7c-4c64-8429-bf32209dccb7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>36b6d7c5-736e-44c4-b7d9-3afe07951aac</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>5040e905-f74a-4fbd-be76-c436116b249f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>16de4e7b-a680-43ef-b22c-aff92862124f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>8e6dfcea-7ed7-44d1-b682-c7050e3a6a97</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>8.06M_0805</value>
+      <footprint>resistors:SMD_0805[2012]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+      </fields>
+      <libsource lib="resistors_smd" part="8.06M_0805" description="Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RC0805FR-078M06L"/>
+      <property name="Display" value="8.06M"/>
+      <property name="IPN" value="RES-066-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>0ce86ab3-bf93-47a6-bb56-70660a9a32ed</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>8.06M_0805</value>
+      <footprint>resistors:SMD_0805[2012]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+      </fields>
+      <libsource lib="resistors_smd" part="8.06M_0805" description="Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RC0805FR-078M06L"/>
+      <property name="Display" value="8.06M"/>
+      <property name="IPN" value="RES-066-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>4c0ffecd-37dd-4c2f-9b62-615fdc3ef8f6</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>402K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</datasheet>
+      <fields>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="402K_0603" description="Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RT0603FRE07402KL"/>
+      <property name="Display" value="402K"/>
+      <property name="IPN" value="RES-065-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>a95ded9e-cf5f-4fbb-b81c-8425e76cd519</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>402K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</datasheet>
+      <fields>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="402K_0603" description="Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RT0603FRE07402KL"/>
+      <property name="Display" value="402K"/>
+      <property name="IPN" value="RES-065-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>e92ad55c-ddd2-429d-ad41-2bfda4eb3a32</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>dd1b9678-5051-4497-9aad-ee2eca6cf805</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>d60347c0-9c4c-4452-a536-e9b287af476e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>64bd3a06-dcf2-4269-9544-f859f5d3529b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>187f87da-a0b3-44f1-8b0f-686c9ade1aea</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>8.06M_0805</value>
+      <footprint>resistors:SMD_0805[2012]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+      </fields>
+      <libsource lib="resistors_smd" part="8.06M_0805" description="Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RC0805FR-078M06L"/>
+      <property name="Display" value="8.06M"/>
+      <property name="IPN" value="RES-066-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>458aee62-09f5-4dd1-946c-bb4a7e88166f</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>8.06M_0805</value>
+      <footprint>resistors:SMD_0805[2012]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+      </fields>
+      <libsource lib="resistors_smd" part="8.06M_0805" description="Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% "/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RC0805FR-078M06L"/>
+      <property name="Display" value="8.06M"/>
+      <property name="IPN" value="RES-066-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>87009943-a467-4078-9fdb-5ecd8a46ad1d</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>402K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</datasheet>
+      <fields>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="402K_0603" description="Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RT0603FRE07402KL"/>
+      <property name="Display" value="402K"/>
+      <property name="IPN" value="RES-065-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>42d049c5-c7de-49cc-8ef8-23698ed55425</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>402K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</datasheet>
+      <fields>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+      </fields>
+      <libsource lib="resistors_smd" part="402K_0603" description="Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Part Number" value="RT0603FRE07402KL"/>
+      <property name="Display" value="402K"/>
+      <property name="IPN" value="RES-065-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>d4b4a72e-9691-41a1-a5d8-0a825cdae425</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>86b11c03-1d52-4933-8b25-2fa9a22b334d</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>a9bd4907-05bd-4777-9baf-18029a80e312</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>a672db15-4201-4e51-a129-1f470ef307a3</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100K_0603</value>
+      <footprint>resistors:SMD_0603[1608]</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</datasheet>
+      <fields>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+      </fields>
+      <libsource lib="resistors_smd" part="100K_0603" description="Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200"/>
+      <property name="Manufacturer" value=" Panasonic "/>
+      <property name="Part Number" value="ERJ-3EKF1003V"/>
+      <property name="Display" value="100K"/>
+      <property name="IPN" value="RES-007-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>358d867a-7514-42af-9bb9-185223e0b9cc</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TLV9062</value>
+      <footprint>SOT:SOT23-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <fields>
+        <field name="IPN">AMP-005-000</field>
+        <field name="Manufacturer"> Texas Instruments </field>
+        <field name="Part Number">TLV9062IDDFR </field>
+      </fields>
+      <libsource lib="op_amps" part="TLV9062" description="Operational Amplifiers - Op Amps 2-Channel, 10-MHz, low-noise, RRIO, CMOS op amp for cost-sensitive systems 8-SOT-23-THIN -40 to 125"/>
+      <property name="Manufacturer" value=" Texas Instruments "/>
+      <property name="Part Number" value="TLV9062IDDFR "/>
+      <property name="IPN" value="AMP-005-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>254a8b36-152d-44a3-a40f-cf4a408bc6ed 1be03460-fc6f-4c11-a39f-e8fc5fbee9a6</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TLV9062</value>
+      <footprint>SOT:SOT23-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <fields>
+        <field name="IPN">AMP-005-000</field>
+        <field name="Manufacturer"> Texas Instruments </field>
+        <field name="Part Number">TLV9062IDDFR </field>
+      </fields>
+      <libsource lib="" part="TLV9062_3" description="Operational Amplifiers - Op Amps 2-Channel, 10-MHz, low-noise, RRIO, CMOS op amp for cost-sensitive systems 8-SOT-23-THIN -40 to 125"/>
+      <property name="Manufacturer" value=" Texas Instruments "/>
+      <property name="Part Number" value="TLV9062IDDFR "/>
+      <property name="IPN" value="AMP-005-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>9f6bad01-7d00-49e7-a0d2-9e392a822f10 5b5b9052-833f-4f58-bbb2-d40bd6c92ba3</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TLV9062</value>
+      <footprint>SOT:SOT23-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</datasheet>
+      <fields>
+        <field name="IPN">AMP-005-000</field>
+        <field name="Manufacturer"> Texas Instruments </field>
+        <field name="Part Number">TLV9062IDDFR </field>
+      </fields>
+      <libsource lib="" part="TLV9062_1" description="Operational Amplifiers - Op Amps 2-Channel, 10-MHz, low-noise, RRIO, CMOS op amp for cost-sensitive systems 8-SOT-23-THIN -40 to 125"/>
+      <property name="Manufacturer" value=" Texas Instruments "/>
+      <property name="Part Number" value="TLV9062IDDFR "/>
+      <property name="IPN" value="AMP-005-000"/>
+      <property name="Sheetname" value="cv_input"/>
+      <property name="Sheetfile" value="cv_input.kicad_sch"/>
+      <sheetpath names="/cv_input/" tstamps="/94a0fde1-8d5f-4fb5-9bef-31a134dd3193/"/>
+      <tstamps>801ebfb8-9e71-49b3-b861-64f5e7bcd7a8 44e556eb-fb61-4ff0-9f4c-0e1934661e3c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="TLV9062_1">
+      <description>Operational Amplifiers - Op Amps 2-Channel, 10-MHz, low-noise, RRIO, CMOS op amp for cost-sensitive systems 8-SOT-23-THIN -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</docs>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV9062_1</field>
+        <field name="Footprint">SOT:SOT23-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</field>
+        <field name="Manufacturer"> Texas Instruments </field>
+        <field name="Part Number">TLV9062IDDFR </field>
+        <field name="IPN">AMP-005-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="TLV9062_3">
+      <description>Operational Amplifiers - Op Amps 2-Channel, 10-MHz, low-noise, RRIO, CMOS op amp for cost-sensitive systems 8-SOT-23-THIN -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</docs>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV9062_3</field>
+        <field name="Footprint">SOT:SOT23-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</field>
+        <field name="Manufacturer"> Texas Instruments </field>
+        <field name="Part Number">TLV9062IDDFR </field>
+        <field name="IPN">AMP-005-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="adc" part="MCP3208">
+      <description>Analog to Digital Converters - ADC 12-bit SPI 8 Chl </description>
+      <docs>https://www.mouser.com/datasheet/2/268/21298e-1101808.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3208</field>
+        <field name="Footprint">adc:SOIC-16</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/268/21298e-1101808.pdf</field>
+        <field name="Manufacturer">Microchip Technology / Atmel </field>
+        <field name="Part Number">MCP3208-CI/SL</field>
+        <field name="IPN">ADC-003-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="input"/>
+        <pin num="2" name="CH1" type="input"/>
+        <pin num="3" name="CH2" type="input"/>
+        <pin num="4" name="CH3" type="input"/>
+        <pin num="5" name="CH4" type="input"/>
+        <pin num="6" name="CH5" type="input"/>
+        <pin num="7" name="CH6" type="input"/>
+        <pin num="8" name="CH7" type="input"/>
+        <pin num="9" name="DGND" type="power_in"/>
+        <pin num="10" name="~{CS}/SHDN" type="input"/>
+        <pin num="11" name="DIN" type="input"/>
+        <pin num="12" name="DOUT" type="output"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="AGND" type="power_in"/>
+        <pin num="15" name="VREF" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_smd" part="0.01uf_0603_50V">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT The factory is currently not accepting orders for this product. </description>
+      <docs>https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.01uf_0603_50V</field>
+        <field name="Footprint">capacitors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Part Number">VJ0603Y103KXACW1BC </field>
+        <field name="Display">0u01</field>
+        <field name="IPN">CAP-002-0001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_smd" part="0.1uf_0603_10V">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 0.1uF 0603 10% 10V MLCC </description>
+      <docs>https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uf_0603_10V</field>
+        <field name="Footprint">capacitors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/445/885012206020-1727542.pdf</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">885012206020</field>
+        <field name="Display">0u1</field>
+        <field name="IPN">CAP-005-0000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_smd" part="0.33uf_0603_25V">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 0.33uF X7R 0603 10% </description>
+      <docs>https://www.mouser.com/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.33uf_0603_25V</field>
+        <field name="Footprint">capacitors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">CC0603KRX7R8BB334 </field>
+        <field name="Display">0u33</field>
+        <field name="IPN">CAP-007-0000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_smd" part="10uf_0603_25V">
+      <description>CAP CER 10UF 25V X5R 0603</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uf_0603_25V</field>
+        <field name="Footprint">capacitors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R61E106ME13-01.pdf</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Part Number">GRT188R61E106ME13D</field>
+        <field name="Display">10u</field>
+        <field name="IPN">CAP-011-0000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_smd" part="1uf_4.3mm_50V_POL_LP">
+      <description>Aluminum Electrolytic Capacitors - SMD 50V 1.0uF 4X5.3</description>
+      <docs>https://www.mouser.com/datasheet/2/129/RVS-5289.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uf_4.3mm_50V_POL_LP</field>
+        <field name="Footprint">capacitors:WE_4mm_cap</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/129/RVS-5289.pdf</field>
+        <field name="Manufacturer">Elna </field>
+        <field name="Part Number">RSVVS010M1UBC3001U </field>
+        <field name="Display">1u</field>
+        <field name="IPN">CAP-048-0000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitors_smd" part="2.2uf_0603_10V">
+      <description>2.2 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)</description>
+      <docs>https://www.we-online.com/katalog/datasheet/885012106011.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uf_0603_10V</field>
+        <field name="Footprint">capacitors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/885012106011.pdf</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Part Number">885012106011</field>
+        <field name="Display">2u2</field>
+        <field name="IPN">CAP-020-0000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="10_POS_PIN_HEADER_ALT">
+      <description>Headers &amp; Wire Housings WR-BHD 2.54mm Box 10Pin Male Straight </description>
+      <docs>https://www.mouser.com/datasheet/2/445/61201021621-1717731.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10_POS_PIN_HEADER_ALT</field>
+        <field name="Footprint">connectors:05x02_2.54_pitch_pin_header</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/445/61201021621-1717731.pdf</field>
+        <field name="Manufacturer">Wurth Elektronik </field>
+        <field name="Part Number">61201021621 </field>
+        <field name="IPN">CON-011-001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="2x1_PIN_HEADER">
+      <description>Headers &amp; Wire Housings EconoStik 2.54mm, Board to Board Connector, Unshrouded Verticl Header, Through Hole, Single Row, 3 Positions, 2.54 mm (0.100in) Pitch. </description>
+      <docs>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2x1_PIN_HEADER</field>
+        <field name="Footprint">connectors:02x01_2.54_pitch_pin_header</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</field>
+        <field name="Manufacturer"> Amphenol FCI </field>
+        <field name="Part Number">67996-400HLF</field>
+        <field name="IPN">CON-030-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="3x1_PIN_HEADER">
+      <description>Headers &amp; Wire Housings EconoStik 2.54mm, Board to Board Connector, Unshrouded Verticl Header, Through Hole, Single Row, 3 Positions, 2.54 mm (0.100in) Pitch. </description>
+      <docs>https://datasheet.octopart.com/10129378-903001BLF-Amphenol-Communications-Solutions-datasheet-100454231.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3x1_PIN_HEADER</field>
+        <field name="Footprint">connectors:03x01_2.54_pitch_pin_header</field>
+        <field name="Datasheet">https://datasheet.octopart.com/10129378-903001BLF-Amphenol-Communications-Solutions-datasheet-100454231.pdf</field>
+        <field name="Manufacturer"> Amphenol FCI </field>
+        <field name="Part Number">10129378-903001BLF</field>
+        <field name="IPN">CON-029-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="40_POS_Header">
+      <description>Headers &amp; Wire Housings ECONOSTIK HEADER DR VT TH 2X20 </description>
+      <docs>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">40_POS_Header</field>
+        <field name="Footprint">connectors:40_POS_2.54mm</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Part Number">10129381-940002BLF</field>
+        <field name="IPN">CON-027-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+        <pin num="17" name="" type="passive"/>
+        <pin num="18" name="" type="passive"/>
+        <pin num="19" name="" type="passive"/>
+        <pin num="20" name="" type="passive"/>
+        <pin num="21" name="" type="passive"/>
+        <pin num="22" name="" type="passive"/>
+        <pin num="23" name="" type="passive"/>
+        <pin num="24" name="" type="passive"/>
+        <pin num="25" name="" type="passive"/>
+        <pin num="26" name="" type="passive"/>
+        <pin num="27" name="" type="passive"/>
+        <pin num="28" name="" type="passive"/>
+        <pin num="29" name="" type="passive"/>
+        <pin num="30" name="" type="passive"/>
+        <pin num="31" name="" type="passive"/>
+        <pin num="32" name="" type="passive"/>
+        <pin num="33" name="" type="passive"/>
+        <pin num="34" name="" type="passive"/>
+        <pin num="35" name="" type="passive"/>
+        <pin num="36" name="" type="passive"/>
+        <pin num="37" name="" type="passive"/>
+        <pin num="38" name="" type="passive"/>
+        <pin num="39" name="" type="passive"/>
+        <pin num="40" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="40_POS_RIBBON">
+      <description>Ribbon Cables / IDC Cables Slim Body Double-Row IDC Socket Assemblies, 0.100 Pitch</description>
+      <docs>https://www.mouser.com/datasheet/2/527/idsd-2854485.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">40_POS_RIBBON</field>
+        <field name="Footprint">connectors:40_POS_2.54mm</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/527/idsd-2854485.pdf</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="IPN">CON-028-000</field>
+        <field name="Part Number">IDSD-20-D-04.00-T-G-RW </field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+        <pin num="17" name="" type="passive"/>
+        <pin num="18" name="" type="passive"/>
+        <pin num="19" name="" type="passive"/>
+        <pin num="20" name="" type="passive"/>
+        <pin num="21" name="" type="passive"/>
+        <pin num="22" name="" type="passive"/>
+        <pin num="23" name="" type="passive"/>
+        <pin num="24" name="" type="passive"/>
+        <pin num="25" name="" type="passive"/>
+        <pin num="26" name="" type="passive"/>
+        <pin num="27" name="" type="passive"/>
+        <pin num="28" name="" type="passive"/>
+        <pin num="29" name="" type="passive"/>
+        <pin num="30" name="" type="passive"/>
+        <pin num="31" name="" type="passive"/>
+        <pin num="32" name="" type="passive"/>
+        <pin num="33" name="" type="passive"/>
+        <pin num="34" name="" type="passive"/>
+        <pin num="35" name="" type="passive"/>
+        <pin num="36" name="" type="passive"/>
+        <pin num="37" name="" type="passive"/>
+        <pin num="38" name="" type="passive"/>
+        <pin num="39" name="" type="passive"/>
+        <pin num="40" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors_audio" part="WQP419">
+      <docs>http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">WQP419</field>
+        <field name="Footprint">connectors:WQP419</field>
+        <field name="Datasheet">http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html</field>
+        <field name="Part Number">WQP-WQP419GR</field>
+        <field name="Manufacturer">qingpu-electronics</field>
+        <field name="IPN">CON-002-001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dac" part="AK4432">
+      <description>Audio D/A Converter ICs DAC Gen3 32bit 192kHz 108dB 2ch SCDF</description>
+      <docs>https://www.mouser.com/datasheet/2/1431/ak4432vt_en_datasheet-3010161.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AK4432</field>
+        <field name="Footprint">dac:TSSOP-16</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/1431/ak4432vt_en_datasheet-3010161.pdf</field>
+        <field name="Manufacturer">Asahi Kasei Microdevices  (AKM)</field>
+        <field name="Part Number">AK4432VT</field>
+        <field name="IPN">DAC-002-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MCLK" type="input"/>
+        <pin num="2" name="BCLK" type="input"/>
+        <pin num="3" name="SDTI" type="input"/>
+        <pin num="4" name="LRCLK" type="input"/>
+        <pin num="5" name="PDN" type="input"/>
+        <pin num="6" name="I2CFIL" type="input"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="SDA" type="input"/>
+        <pin num="9" name="P/S" type="input"/>
+        <pin num="10" name="OUTR" type="output"/>
+        <pin num="11" name="OUTL" type="output"/>
+        <pin num="12" name="VCOM" type="output"/>
+        <pin num="13" name="VSS" type="power_in"/>
+        <pin num="14" name="AVDD" type="power_in"/>
+        <pin num="15" name="LVDD" type="power_in"/>
+        <pin num="16" name="LDOO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="display" part="PIM_LCD">
+      <description>Crisp, high-res, with great viewing angles (IPS), this 1.3" square, 240x240 pixel, colour LCD will add some pizzazz to your Raspberry Pi or Arduino projects.</description>
+      <docs>https://shop.pimoroni.com/products/1-3-spi-colour-lcd-240x240-breakout?variant=30250963632211</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PIM_LCD</field>
+        <field name="Footprint">display:PIMORONI_LCD_240x240</field>
+        <field name="Datasheet">https://shop.pimoroni.com/products/1-3-spi-colour-lcd-240x240-breakout?variant=30250963632211</field>
+        <field name="Manufacturer">PIMORONI</field>
+        <field name="Part Number">PIMORONI_LCD_240x240</field>
+        <field name="IPN">DIS-001-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="DC" type="input"/>
+        <pin num="6" name="BL" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="encoders" part="BOURNS_PEC11R_DET">
+      <description>Encoders 20mm SHAFT NO SWITCH - 24 detent</description>
+      <docs>https://www.mouser.com/datasheet/2/54/PEC11R-777457.pdf</docs>
+      <fields>
+        <field name="Reference">ENC</field>
+        <field name="Value">BOURNS_PEC11R_DET</field>
+        <field name="Footprint">encoders:BOURNS_ENCODER</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/54/PEC11R-777457.pdf</field>
+        <field name="Manufacturer"> Bourns </field>
+        <field name="Part Number">PEC11R-4220F-N0024</field>
+        <field name="IPN">ENC-002-001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="inductors" part="FB_HZ0805">
+      <description>Ferrite Beads 2000ohms 100MHz .3A Monolithic 0805 SMD</description>
+      <docs>https://www.mouser.com/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FB_HZ0805</field>
+        <field name="Footprint">inductance_ferrite:FB_HZ0805</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf</field>
+        <field name="Manufacturer"> Laird Performance Materials </field>
+        <field name="Part Number">HZ0805C202R-10</field>
+        <field name="IPN">IND-007-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="op_amps" part="TLV9062">
+      <description>Operational Amplifiers - Op Amps 2-Channel, 10-MHz, low-noise, RRIO, CMOS op amp for cost-sensitive systems 8-SOT-23-THIN -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</docs>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV9062</field>
+        <field name="Footprint">SOT:SOT23-8</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv9062.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1672235165731&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F</field>
+        <field name="Manufacturer"> Texas Instruments </field>
+        <field name="Part Number">TLV9062IDDFR </field>
+        <field name="IPN">AMP-005-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="regulators" part="LD29150DT50R">
+      <description> LDO Voltage Regulators 5.0V 1.5A Very Low </description>
+      <docs>https://www.mouser.com/datasheet/2/389/cd00003403-1796235.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD29150DT50R</field>
+        <field name="Footprint">converters:TO-252-3_ST</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/389/cd00003403-1796235.pdf</field>
+        <field name="Manufacturer"> STMicroelectronics </field>
+        <field name="Part Number"> LD29150DT50R </field>
+        <field name="IPN">ANA-005-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="in" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="out" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_smd" part="0_0603">
+      <description>Thick Film Resistors - SMD 1/10Watt 0ohms Commercial Use</description>
+      <docs>https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0_0603</field>
+        <field name="Footprint">resistors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/427/crcwce3-1762584.pdf</field>
+        <field name="Manufacturer"> Vishay / Draloric </field>
+        <field name="Part Number">CRCW06030000Z0EAC</field>
+        <field name="Display">0</field>
+        <field name="IPN">RES-001-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_smd" part="100K_0603">
+      <description>Thick Film Resistors - SMD 0603 100Kohms 1% AEC-Q200</description>
+      <docs>https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100K_0603</field>
+        <field name="Footprint">resistors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf</field>
+        <field name="Manufacturer"> Panasonic </field>
+        <field name="Part Number">ERJ-3EKF1003V</field>
+        <field name="Display">100K</field>
+        <field name="IPN">RES-007-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_smd" part="10K_0603">
+      <description>Thick Film Resistors - SMD 10 kOhms 100mW 0603 1% AEC-Q200</description>
+      <docs>https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10K_0603</field>
+        <field name="Footprint">resistors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">AC0603FR-0710KL</field>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_smd" part="10K_0603_2">
+      <description>Thick Film Resistors - SMD 0603 10Kohms 1% Anti-Sulfur AEC-Q200 </description>
+      <docs>https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10K_0603_2</field>
+        <field name="Footprint">resistors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/348/ROHM_S_A0009648217_1-2563033.pdf</field>
+        <field name="Manufacturer">ROHM Semiconductor </field>
+        <field name="Part Number">SFR03EZPF1002 </field>
+        <field name="Display">10K</field>
+        <field name="IPN">RES-011-002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_smd" part="402K_0603">
+      <description>Thin Film Resistors - SMD 1/10W 402K ohm 1% 50ppm</description>
+      <docs>https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">402K_0603</field>
+        <field name="Footprint">resistors:SMD_0603[1608]</field>
+        <field name="Datasheet">https://datasheet.octopart.com/RT0603FRE07402KL-Yageo-datasheet-166250672.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RT0603FRE07402KL</field>
+        <field name="Display">402K</field>
+        <field name="IPN">RES-065-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistors_smd" part="8.06M_0805">
+      <description>Thick Film Resistors - SMD 8.06mOhms 1/8W 0805 1% </description>
+      <docs>https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">8.06M_0805</field>
+        <field name="Footprint">resistors:SMD_0805[2012]</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Part Number">RC0805FR-078M06L</field>
+        <field name="Display">8.06M</field>
+        <field name="IPN">RES-066-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="D6R">
+      <description>Pushbutton Switches Key Switch SPST NO 100 mA</description>
+      <docs>https://www.mouser.com/datasheet/2/240/d6-3050860.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">D6R</field>
+        <field name="Footprint">switches:D6R</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/240/d6-3050860.pdf</field>
+        <field name="Manufacturer"> C&amp;K </field>
+        <field name="Part Number">D6R60F1LFS</field>
+        <field name="IPN">SWI-002-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="test_points" part="test_point_TH_Small">
+      <description>Testpoint, connection for test equipment</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">test_point_TH_Small</field>
+        <field name="Footprint">misc:test_point_0.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="FDMS0312S ">
+      <description> MOSFET 30V N-Chan SyncFET PowerTrench </description>
+      <docs>https://www.mouser.com/datasheet/2/308/1/FDMS0312S_D-2312821.pdf</docs>
+      <footprints>
+        <fp>SO*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDMS0312S </field>
+        <field name="Footprint">transistors:Power-56-8</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/308/1/FDMS0312S_D-2312821.pdf</field>
+        <field name="Manufacturer">onsemi / Fairchild </field>
+        <field name="Part Number">FDMS0312S </field>
+        <field name="IPN">TRA-008-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="FDMS4435BZ ">
+      <description>P-Channel PowerTrench® MOSFET -30V, -18A, 20mΩ</description>
+      <docs>https://datasheet.octopart.com/FDMS4435BZ-ON-Semiconductor-datasheet-139010446.pdf</docs>
+      <footprints>
+        <fp>SO*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDMS4435BZ </field>
+        <field name="Footprint">transistors:Power-56-8</field>
+        <field name="Datasheet">https://datasheet.octopart.com/FDMS4435BZ-ON-Semiconductor-datasheet-139010446.pdf</field>
+        <field name="Manufacturer">onsemi / Fairchild </field>
+        <field name="Part Number">FDMS4435BZ </field>
+        <field name="IPN">TRA-009-000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="adc">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/adc.kicad_sym</uri>
+    </library>
+    <library logical="capacitors_smd">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/capacitors_smd.kicad_sym</uri>
+    </library>
+    <library logical="connectors">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/connectors.kicad_sym</uri>
+    </library>
+    <library logical="connectors_audio">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/connectors_audio.kicad_sym</uri>
+    </library>
+    <library logical="dac">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/dac.kicad_sym</uri>
+    </library>
+    <library logical="display">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/display.kicad_sym</uri>
+    </library>
+    <library logical="encoders">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/encoders.kicad_sym</uri>
+    </library>
+    <library logical="inductors">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/inductors.kicad_sym</uri>
+    </library>
+    <library logical="op_amps">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/op_amps.kicad_sym</uri>
+    </library>
+    <library logical="regulators">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/regulators.kicad_sym</uri>
+    </library>
+    <library logical="resistors_smd">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/resistors_smd.kicad_sym</uri>
+    </library>
+    <library logical="switches">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/switches.kicad_sym</uri>
+    </library>
+    <library logical="test_points">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/test_points.kicad_sym</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/home/fabien/work/dalba//parts_library/symbols/transistors.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="17" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="LVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J13" pin="1" pintype="passive"/>
+      <node ref="J15" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VREF" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="J13" pin="3" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="in" pintype="power_in"/>
+    </net>
+    <net code="4" name="-12V">
+      <node ref="J14" pin="3" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="5" name="/AUDIO_MCLK">
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="MCLK" pintype="input"/>
+    </net>
+    <net code="6" name="/GPIO_19">
+      <node ref="J2" pin="26" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PDN" pintype="input"/>
+    </net>
+    <net code="7" name="/GPIO_38">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="33" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/GPIO_50">
+      <node ref="J2" pin="11" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/GPIO_149">
+      <node ref="J10" pin="6" pinfunction="BL" pintype="input"/>
+      <node ref="J2" pin="29" pintype="passive"/>
+    </net>
+    <net code="10" name="/GPIO_168">
+      <node ref="J2" pin="32" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="I2CFIL" pintype="input"/>
+    </net>
+    <net code="11" name="/GPIO_194">
+      <node ref="J10" pin="5" pinfunction="DC" pintype="input"/>
+      <node ref="J2" pin="15" pintype="passive"/>
+    </net>
+    <net code="12" name="/GPIO_200">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J2" pin="31" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/I2C_2_SCL">
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="14" name="/I2C_2_SDA">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="15" name="/I2S_4_LRCLK">
+      <node ref="J2" pin="35" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="LRCLK" pintype="input"/>
+    </net>
+    <net code="16" name="/I2S_4_SCLK">
+      <node ref="J2" pin="12" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="BCLK" pintype="input"/>
+    </net>
+    <net code="17" name="/I2S_4_SDIN">
+      <node ref="J2" pin="38" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SDTI" pintype="input"/>
+    </net>
+    <net code="18" name="/SPI_1_CS0">
+      <node ref="J2" pin="24" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="~{CS}/SHDN" pintype="input"/>
+    </net>
+    <net code="19" name="/SPI_1_MISO">
+      <node ref="J2" pin="21" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="20" name="/SPI_1_MOSI">
+      <node ref="J2" pin="19" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="21" name="/SPI_1_SCK">
+      <node ref="J2" pin="23" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="22" name="/SPI_2_CS0">
+      <node ref="J10" pin="2" pinfunction="CS" pintype="input"/>
+      <node ref="J2" pin="18" pintype="passive"/>
+    </net>
+    <net code="23" name="/SPI_2_MOSI">
+      <node ref="J10" pin="4" pinfunction="MOSI" pintype="input"/>
+      <node ref="J2" pin="37" pintype="passive"/>
+    </net>
+    <net code="24" name="/SPI_2_SCK">
+      <node ref="J10" pin="3" pinfunction="SCLK" pintype="input"/>
+      <node ref="J2" pin="13" pintype="passive"/>
+    </net>
+    <net code="25" name="/adc/ADC_IN0">
+      <node ref="U1" pin="1" pinfunction="CH0" pintype="input"/>
+      <node ref="U3" pin="1" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="26" name="/adc/ADC_IN1">
+      <node ref="U1" pin="2" pinfunction="CH1" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="27" name="/adc/ADC_IN2">
+      <node ref="U1" pin="3" pinfunction="CH2" pintype="input"/>
+      <node ref="U5" pin="1" pintype="output"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="28" name="/adc/ADC_IN3">
+      <node ref="U1" pin="4" pinfunction="CH3" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="29" name="/adc/ADC_IN4">
+      <node ref="U1" pin="5" pinfunction="CH4" pintype="input"/>
+      <node ref="U4" pin="1" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="30" name="/adc/ADC_IN5">
+      <node ref="U1" pin="6" pinfunction="CH5" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U4" pin="7" pintype="output"/>
+    </net>
+    <net code="31" name="/cv_input/OPAMP_VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="32" name="/cv_input/OPAMP_VSS">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J14" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="33" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="ENC1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="J11" pin="1" pintype="passive"/>
+      <node ref="J12" pin="1" pintype="passive"/>
+      <node ref="J14" pin="1" pintype="passive"/>
+      <node ref="J2" pin="14" pintype="passive"/>
+      <node ref="J2" pin="20" pintype="passive"/>
+      <node ref="J2" pin="25" pintype="passive"/>
+      <node ref="J2" pin="30" pintype="passive"/>
+      <node ref="J2" pin="34" pintype="passive"/>
+      <node ref="J2" pin="39" pintype="passive"/>
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="J2" pin="9" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pintype="passive"/>
+      <node ref="J4" pin="4" pintype="passive"/>
+      <node ref="J4" pin="5" pintype="passive"/>
+      <node ref="J4" pin="6" pintype="passive"/>
+      <node ref="J4" pin="7" pintype="passive"/>
+      <node ref="J4" pin="8" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="Q2" pin="4" pinfunction="G" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="CH6" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="CH7" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="LDOO" pintype="power_out"/>
+    </net>
+    <net code="35" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VCOM" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J11" pin="3" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="OUTL" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J12" pin="3" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="OUTR" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(C46-Pad1)">
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="J15" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="out" pintype="power_out"/>
+    </net>
+    <net code="41" name="Net-(ENC1-Pad1)">
+      <node ref="ENC1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(ENC1-Pad3)">
+      <node ref="ENC1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(FB1-Pad2)">
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J4" pin="10" pintype="passive"/>
+      <node ref="J4" pin="9" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(FB2-Pad1)">
+      <node ref="FB2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(FB2-Pad2)">
+      <node ref="FB2" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad22)">
+      <node ref="J2" pin="22" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad27)">
+      <node ref="J2" pin="27" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad36)">
+      <node ref="J2" pin="36" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(J9-Pad3)">
+      <node ref="J9" pin="3" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="P/S" pintype="input"/>
+    </net>
+    <net code="68" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J1-Pad5)">
+      <node ref="J1" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J1-Pad7)">
+      <node ref="J1" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J1-Pad10)">
+      <node ref="J1" pin="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J1-Pad11)">
+      <node ref="J1" pin="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J1-Pad15)">
+      <node ref="J1" pin="15" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J1-Pad16)">
+      <node ref="J1" pin="16" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J1-Pad17)">
+      <node ref="J1" pin="17" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J1-Pad18)">
+      <node ref="J1" pin="18" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J1-Pad19)">
+      <node ref="J1" pin="19" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(J1-Pad20)">
+      <node ref="J1" pin="20" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J1-Pad21)">
+      <node ref="J1" pin="21" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J1-Pad22)">
+      <node ref="J1" pin="22" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J1-Pad23)">
+      <node ref="J1" pin="23" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(J1-Pad24)">
+      <node ref="J1" pin="24" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(J1-Pad25)">
+      <node ref="J1" pin="25" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(J1-Pad26)">
+      <node ref="J1" pin="26" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J1-Pad27)">
+      <node ref="J1" pin="27" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J1-Pad28)">
+      <node ref="J1" pin="28" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J1-Pad29)">
+      <node ref="J1" pin="29" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J1-Pad30)">
+      <node ref="J1" pin="30" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J1-Pad31)">
+      <node ref="J1" pin="31" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J1-Pad32)">
+      <node ref="J1" pin="32" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J1-Pad33)">
+      <node ref="J1" pin="33" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J1-Pad34)">
+      <node ref="J1" pin="34" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J1-Pad35)">
+      <node ref="J1" pin="35" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J1-Pad36)">
+      <node ref="J1" pin="36" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J1-Pad37)">
+      <node ref="J1" pin="37" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J1-Pad38)">
+      <node ref="J1" pin="38" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J1-Pad39)">
+      <node ref="J1" pin="39" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J1-Pad40)">
+      <node ref="J1" pin="40" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J6-Pad2)">
+      <node ref="J6" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J7-Pad2)">
+      <node ref="J7" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J8-Pad2)">
+      <node ref="J8" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J9-Pad2)">
+      <node ref="J9" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J11-Pad2)">
+      <node ref="J11" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J12-Pad2)">
+      <node ref="J12" pin="2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
