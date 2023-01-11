@@ -1,4 +1,4 @@
-381349440634552
+384700236666078
 Battery_management
 SOT-23_MCP73831
 
@@ -1091,6 +1091,13 @@ mechanical
 0
 0
 0
+mechanical
+M2.5_mountingHole
+
+
+0
+0
+0
 memoryICs
 SOIC-Wide-8
 
@@ -1392,6 +1399,13 @@ TH_R
 0
 2
 2
+singleBoardComp
+jetsonNanoDev
+
+
+0
+0
+0
 switches
 D6R
 
