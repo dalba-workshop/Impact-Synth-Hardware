@@ -10,7 +10,7 @@
 ## Software troubleshooting
 
 * Install Pytorch from source or [NVIDIA wheels](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-8-0-now-available/72048)
-* Need to rebuild libtorch (C++) [from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst]
+* Need to rebuild libtorch (C++) [from source](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
 * Need to rebuild [PureData from GitHub](https://github.com/pure-data/pure-data) (apt-get install is faulty)
 * Installing [latest CUDA](https://www.seeedstudio.com/blog/2020/07/29/install-cuda-11-on-jetson-nano-and-xavier-nx/) on Jetson
 * Fixing [Numba and LLVM install](https://github.com/jefflgaol/Install-Packages-Jetson-ARM-Family/issues/2)
